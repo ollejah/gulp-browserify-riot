@@ -17,3 +17,22 @@ Without `.babelrc` file. Babel presets for babelify plugin added to package.json
 
 ### build app
 `$ gulp app`
+
+###Important points
+
+Short design into riotjs tag file
+
+```
+shortFn() {
+	// code...
+}
+```
+
+generates an error when you build the browserify and webpack, use `this`
+
+```
+this.shortFn = () => {
+    // code...
+}
+```
+

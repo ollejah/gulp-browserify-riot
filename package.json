@@ -1,7 +1,7 @@
 {
   "name": "gulp-browserify-riot",
   "version": "1.0.0",
-  "description": "bundle riotjs tag via [browserify, riotify, babel]",
+  "description": "vary base bundler with browserify, riotify, babelify and gulp 4",
   "main": "gulpfile.js",
   "scripts": {
     "setup": "npm i gulpjs/gulp-cli -g | npm i",
